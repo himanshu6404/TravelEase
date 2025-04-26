@@ -40,7 +40,7 @@ const FeaturedDestinations = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> 
       </div>
     </section>
   );

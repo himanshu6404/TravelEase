@@ -38,7 +38,7 @@ function SignUp() {
   
       alert("Login successful!");
       localStorage.setItem("token", data.accessToken);
-      navigate("/dashboard");
+      navigate("/dashboard") ;
   
     } catch (err) {
       console.error("Error during login:", err);

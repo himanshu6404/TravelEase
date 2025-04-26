@@ -41,7 +41,7 @@ const Testimonal = () => {
     arrows: false,
   };
 
-  return (
+  return ( 
     <section className="py-16 bg-gray-100">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12">Verified Reviews</h2>

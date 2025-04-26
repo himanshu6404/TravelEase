@@ -29,7 +29,7 @@ function Dashboard() {
         });
         
 
-        if (!response.ok) {
+        if (!response.ok) { 
           console.log("Failed to fetch user");
           navigate("/login");
 

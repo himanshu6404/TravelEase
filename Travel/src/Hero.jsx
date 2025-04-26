@@ -29,7 +29,7 @@ export default function Hero() {
     href="/" 
     className="text-2xl font-bold text-gray-900 "
   >TravelEase
-  </a>
+  </a> 
 </div>
 
             </a>

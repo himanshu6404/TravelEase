@@ -10,7 +10,7 @@ const Footer = () => {
           <h2 className="text-2xl font-bold text-white mb-4">TravelEase</h2>
           <p>Your Trusted Partner for Unforgettable Travel Experiences.</p>
         </div>
-
+ 
         {/* Quick Links */}
         <div>
           <h3 className="text-xl font-semibold text-white mb-4">Quick Links</h3>

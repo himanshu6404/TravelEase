@@ -34,7 +34,7 @@ export const GoogleSignIn = () => {
     }
   };
 
-  return (
+  return ( 
     <div className="mt-5 flex justify-center">
       <GoogleLogin
         onSuccess={handleGoogleLogin}

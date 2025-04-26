@@ -18,7 +18,7 @@ const stats = [
               </div>
             ))}
           </dl>
-        </div>
+        </div> 
       </div>
     )
   }
