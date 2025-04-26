@@ -97,7 +97,7 @@ function Dashboard() {
             <span className="text-blue-500 text-2xl">🏨</span>
           </div>
           <p className="text-gray-600 mb-4">Find and book your perfect stay with us.</p>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg w-full transition">
+          <button onClick={() => navigate('/booking')} className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg w-full transition">
             Book Now
           </button>
         </div>
