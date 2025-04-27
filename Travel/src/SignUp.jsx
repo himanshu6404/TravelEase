@@ -12,7 +12,7 @@ function SignUp() {
     e.preventDefault();
   
     try {
-      const response = await fetch("http://localhost:8000/api/v1/users/login", {
+      const response = await fetch("http://localhost:8000/api/v1/users/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -23,11 +23,11 @@ function SignUp() {
       if (!response.ok) {
         // don't try to parse json if response failed
         if (response.status === 401) {
-          alert("User not registered. Please sign up first!");
-          navigate("/register");
+          // alert("User not registered. Please sign up first!");
+          // navigate("/register");
         } else {
           const errorData = await response.json().catch(() => null); // try-catch JSON parsing
-          alert(errorData?.message || "Login failed. Please check your credentials.");
+          alert(errorData?.message || "Sign Up failed. Please check your credentials.");
         }
         return; // stop here
       }
@@ -36,8 +36,8 @@ function SignUp() {
       const data = await response.json();
       console.log("Response data:", data);
   
-      alert("Login successful!");
-      localStorage.setItem("token", data.accessToken);
+      alert("Sign Up successful!");
+      localStorage.setItem("token", data.data.accessToken);
       navigate("/dashboard") ;
   
     } catch (err) {

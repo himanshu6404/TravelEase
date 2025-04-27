@@ -39,5 +39,5 @@ export const googleLogin = async (req, res) => {
   } catch (error) {
     console.error('Error during Google login:', error);
     res.status(500).json({ message: 'Google login failed' });
-  }
+  } 
 };

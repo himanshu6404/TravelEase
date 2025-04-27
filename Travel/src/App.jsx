@@ -7,6 +7,7 @@ import Booking from "./Booking.jsx";
 import HotelBook from "./HotelBook.jsx";
 import PaymentPage from "./PaymentPage.jsx";
 import SuccessPage from "./SucessPage.jsx";
+import GenerateItinerary from "./GenerateItinerary.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/hotelbooking" element={<HotelBook />} />
         <Route path="/payment" element={<PaymentPage />} />
         <Route path="/success" element={<SuccessPage />} />
+        <Route path="/generate-itinerary" element={<GenerateItinerary />} />
 
 
       </Routes>

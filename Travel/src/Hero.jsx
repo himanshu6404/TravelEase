@@ -8,9 +8,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 const navigation = [
   { name: 'Home', href: '#' },
   { name: 'About', href: '#' },
-  { name: 'Services', href: '#' },
   { name: 'Explore', href: '#' },
-  {name: 'Contact', href: '#' },
+  { name: 'Contact', href: '/dummy' },
+  { name: 'AI Itinerary ', href: '/generate-itinerary' },
 ]
 
 export default function Hero() {
@@ -18,7 +18,7 @@ export default function Hero() {
 
     return (
       <>
-    <div className="bg-white">
+    <div className="bg-[#161B22]">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
           <div className="flex lg:flex-1">
@@ -27,7 +27,7 @@ export default function Hero() {
                   <div className="logo">
   <a 
     href="/" 
-    className="text-2xl font-bold text-gray-900 "
+    className="text-2xl font-bold text-white "
   >TravelEase
   </a> 
 </div>
@@ -46,13 +46,13 @@ export default function Hero() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-gray-900 relative inline-block after:block after:h-0.5 after:bg-pink-500 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left">
+              <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-white relative inline-block after:block after:h-0.5 after:bg-pink-500 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left">
                 {item.name}
               </a>
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="/login" className="text-sm/6 font-semibold text-gray-900 relative inline-block after:block after:h-0.5 after:bg-pink-500 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left">
+            <a href="/login" className="text-sm/6 font-semibold text-white relative inline-block after:block after:h-0.5 after:bg-pink-500 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left">
               Log in <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
@@ -90,7 +90,7 @@ export default function Hero() {
                 <div className="py-6">
                   <a
                     href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-gray-50"
                   >
                     Log in
                   </a>
@@ -125,10 +125,10 @@ export default function Hero() {
             </div> */}
           </div>
           <div className="text-center">
-            <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">
+            <h1 className="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">
             Explore the World. Book with Ease.
             </h1>
-            <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
+            <p className="mt-8 text-lg font-medium text-pretty text-white sm:text-xl/8">
             Explore the world with ease — seamless bookings, unforgettable journeys, and luxurious adventures await. Your dream travel experience starts here. 
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -138,7 +138,7 @@ export default function Hero() {
               >
                 Book Now 
               </a>
-              <a href="#" className="text-sm/6 font-semibold text-gray-900 relative inline-block after:block after:h-0.5 after:bg-pink-500 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left">
+              <a href="#" className="text-sm/6 font-semibold text-white relative inline-block after:block after:h-0.5 after:bg-pink-500 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300 after:origin-left">
                 Discover more <span aria-hidden="true">→</span>
               </a>
             </div>

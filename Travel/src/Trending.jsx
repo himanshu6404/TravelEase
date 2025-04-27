@@ -24,7 +24,7 @@ const destinations = [
 
 const FeaturedDestinations = () => {
   return (
-    <section className="py-16 bg-gray-100">
+    <section className="py-16 bg-gray-200">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12">Trending Destinations</h2>
         <div className="grid md:grid-cols-3 gap-8">

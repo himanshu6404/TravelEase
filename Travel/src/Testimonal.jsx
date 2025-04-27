@@ -42,7 +42,7 @@ const Testimonal = () => {
   };
 
   return ( 
-    <section className="py-16 bg-gray-100">
+    <section className="py-16 bg-gray-200">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12">Verified Reviews</h2>
         <Slider {...settings}>
