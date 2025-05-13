@@ -14,7 +14,7 @@ const GenerateItinerary = () => {
     setItinerary('');
 
     try {
-      const response = await fetch('http://localhost:8000/api/v1/users/generate-itinerary', {
+      const response = await fetch('https://travelease-m121.onrender.com/api/v1/users/generate-itinerary', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
