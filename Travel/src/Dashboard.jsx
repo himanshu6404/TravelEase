@@ -21,7 +21,7 @@ function Dashboard() {
       }
 
       try {
-        const response = await fetch('https://travelease-hotel-booking.onrender.com//api/v1/users/me', {
+        const response = await fetch('https://travelease-hotel-booking.onrender.com/api/v1/users/me', {
           method: 'GET',
           headers: {
             'Authorization': `Bearer ${localStorage.getItem('token')}`, // IMPORTANT
