@@ -1,5 +1,5 @@
 import React from "react";
-import bali_img from './assets/bali_img.jpg'
+import bali_img from './assets/bali_Img.jpg'
 import france_img from './assets/france_img.jpg'
 import tokyo_img from './assets/tokyo_img.jpg'
 
