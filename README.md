@@ -61,3 +61,36 @@ traveleEase/
 ├── package.json
 └── README.md
 
+
+
+---
+
+## 🧑‍💻 Getting Started
+
+### ⚙️ Prerequisites
+- Node.js
+- MongoDB (local or cloud)
+- NPM/Yarn
+
+### 🔧 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/traveleEase.git
+   cd traveleEase
+cd server
+npm install
+cd ../client
+npm install
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+# Start backend
+cd server
+npm run dev
+
+# Start frontend
+cd ../client
+npm start
+
+
