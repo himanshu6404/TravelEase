@@ -43,27 +43,24 @@ TravelEase is a full-stack hotel booking platform where users can browse, book, 
 
 traveleEase/
 │
-├── client/ # React frontend
-│ ├── public/
-│ └── src/
-│ ├── components/
-│ ├── pages/
-│ └── App.jsx
+├── client/                        → React frontend
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       └── App.jsx
 │
-├── server/ # Node.js backend
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── config/
-│ └── server.js
+├── server/                        → Node.js backend
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── config/
+│   └── server.js
 │
-├── .env
-├── package.json
-└── README.md
+├── .env                           → Environment config
+├── package.json                   → Project metadata and dependencies
+└── README.md                      → Project documentation
 
-
-
----
 
 ## 🧑‍💻 Getting Started
 
@@ -74,17 +71,29 @@ traveleEase/
 
 ### 🔧 Installation
 
-1. **Clone the repository**
-   ```bash
+1.**Clone the repository**
+```bash
    git clone https://github.com/your-username/traveleEase.git
    cd traveleEase
+```
+2.**Install Backend dependencies**
+```bash
 cd server
 npm install
+```
+3.**Install Frontend dependencies**
+```bash
 cd ../client
 npm install
+```
+4.**Environment Variable**
+```bash
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
+```
+5.**Run Application**
+```bash
 # Start backend
 cd server
 npm run dev
@@ -92,5 +101,6 @@ npm run dev
 # Start frontend
 cd ../client
 npm start
+```
 
 
