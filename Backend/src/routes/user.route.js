@@ -21,6 +21,7 @@ const together = new Together({
   apiKey: "4c4ef8a7746d75bfe518bcaaa2dce444a8146ed05ec196a4951a9c9085bc0f89", // Ensure to add this API key in your .env file for security
 });
 router.route("/register").post(registerUser);  
+router.route("/register").post(registerUser);
 router.post("/login", loginUser);
 router.post('/google-login', googleLogin);
 router.get('/me', verifyJWT, getMyProfile);

@@ -3,9 +3,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import cust1 from './assets/cust1.jpg';
-import cust2 from './assets/cust2.jpg';
-import cust3 from './assets/cust3.jpg';
+import cust1 from '../assets/cust1.jpg';
+import cust2 from '../assets/cust2.jpg';
+import cust3 from '../assets/cust3.jpg';
 
 const testimonials = [
   {

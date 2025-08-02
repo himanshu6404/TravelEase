@@ -1,7 +1,7 @@
 import React from "react";
-import bali_img from './assets/bali_img.jpg'
-import france_img from './assets/france_img.jpg'
-import tokyo_img from './assets/tokyo_img.jpg'
+import bali_img from '../assets/bali_Img.jpg'
+import france_img from '../assets/france_img.jpg'
+import tokyo_img from '../assets/tokyo_img.jpg'
 
 
 const destinations = [
@@ -24,7 +24,7 @@ const destinations = [
 
 const FeaturedDestinations = () => {
   return (
-    <section className="py-16 bg-gray-200">
+    <section className="py-16 bg-gray-200" id="explore">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12">Trending Destinations</h2>
         <div className="grid md:grid-cols-3 gap-8">

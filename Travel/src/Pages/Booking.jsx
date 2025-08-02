@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import hotel_p1 from './assets/hotel_p1.jpg'
-import hotel_p2 from './assets/hotel_p2.jpg'
-import hotel_p3 from './assets/hotel_p3.jpg'
+import hotel_p1 from '../assets/hotel_p1.jpg';
+import hotel_p2 from '../assets/hotel_p2.jpg'
+import hotel_p3 from '../assets/hotel_p3.jpg'
 
 
 

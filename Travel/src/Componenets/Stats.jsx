@@ -6,6 +6,7 @@ const stats = [
 
 export default function Example() {
   return (
+    <section id="about">
     <div className="bg-[#161b22] py-20 sm:py-28">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 text-center">
         
@@ -31,6 +32,7 @@ export default function Example() {
         </dl>
 
       </div>
-    </div>
+      </div>
+      </section>
   )
 }

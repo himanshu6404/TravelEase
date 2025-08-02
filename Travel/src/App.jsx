@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./home.jsx";
-import SignIn from "./SignIn.jsx";
-import Dashboard from "./Dashboard.jsx";
-import SignUp from "./SignUp.jsx";
-import Booking from "./Booking.jsx";
-import HotelBook from "./HotelBook.jsx";
-import PaymentPage from "./PaymentPage.jsx";
-import SuccessPage from "./SucessPage.jsx";
-import GenerateItinerary from "./GenerateItinerary.jsx";
+import Home from "./Pages/Home.jsx";
+import SignIn from "./Pages/SignIn.jsx";
+import Dashboard from "./Pages/Dashboard.jsx";
+import SignUp from "./Pages/SignUp.jsx";
+import Booking from "./Pages/Booking.jsx";
+import HotelBook from "./Pages/HotelBook.jsx";
+import PaymentPage from "./Pages/PaymentPage.jsx";
+import SuccessPage from "./Pages/SucessPage.jsx";
+import GenerateItinerary from "./Pages/GenerateItinerary.jsx";
 
 function App() {
   return (

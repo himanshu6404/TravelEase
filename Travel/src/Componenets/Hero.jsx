@@ -6,10 +6,10 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 
 const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'About', href: '#' },
-  { name: 'Explore', href: '#' },
-  { name: 'Contact', href: '/dummy' },
+  { name: 'Home', href: '/' },
+  { name: 'About', href: '#about' },
+  { name: 'Explore', href: '#explore' },
+  { name: 'Contact', href: '#contact' },
   { name: 'AI Itinerary ', href: '/generate-itinerary' },
 ]
 

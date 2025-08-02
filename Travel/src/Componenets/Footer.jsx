@@ -2,6 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
+    <section id="contact">
     <footer className="bg-gray-200 text-black py-10">
       <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8">
         
@@ -39,7 +40,8 @@ const Footer = () => {
       <div className="text-center mt-10 text-gray-500 text-sm">
         © 2025 TravelEase. All rights reserved.
       </div>
-    </footer>
+      </footer>
+      </section>
   );
 };
 
