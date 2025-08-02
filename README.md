@@ -54,6 +54,13 @@ traveleEase/
 └── README.md                      → Project documentation
 
 
+├── app/            # Expo Router pages
+├── components/     # UI elements
+├── assets/         # Images & animations
+├── context/        # Chat + user data context
+├── utils/          # Axios instances & helpers
+└── app.config.js   # App metadata
+
 ## 🧑‍💻 Getting Started
 
 ### ⚙️ Prerequisites
