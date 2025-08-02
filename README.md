@@ -1,6 +1,6 @@
 # 🧳 TravelEase
 
-TravelEase is a full-stack hotel booking platform where users can browse, book, and manage hotel reservations with ease. Built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js), TravelEase aims to deliver a seamless and responsive experience for both users and administrators.
+TravelEase is a full-stack hotel booking platform where users can browse, book, and manage hotel reservations with ease. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), TravelEase offers a seamless experience for discovering and reserving accommodations.
 
 ---
 
@@ -14,11 +14,6 @@ TravelEase is a full-stack hotel booking platform where users can browse, book, 
 - ✅ Booking success confirmation
 - 📂 View and manage your bookings (Dashboard)
 
-### 🛠️ Admin Side (Upcoming or Optional)
-- ✏️ Add, update, and delete hotel listings
-- 📊 Dashboard with bookings overview
-- 👥 Manage user reservations
-
 ---
 
 ## 🛠️ Tech Stack
@@ -26,17 +21,14 @@ TravelEase is a full-stack hotel booking platform where users can browse, book, 
 ### 💻 Frontend
 - React.js
 - React Router
-- Tailwind CSS / Custom CSS
+- Tailwind CSS
 - Axios
 
 ### 🔙 Backend
 - Node.js
 - Express.js
 - MongoDB (Mongoose)
-
-### 💳 Payment Integration
-- Razorpay / Stripe *(based on your integration)*
-
+  
 ---
 
 ## 📁 Project Structure
