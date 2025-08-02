@@ -31,35 +31,6 @@ TravelEase is a full-stack hotel booking platform where users can browse, book, 
   
 ---
 
-## 📁 Project Structure
-
-traveleEase/
-│
-├── client/                        → React frontend
-│   ├── public/
-│   └── src/
-│       ├── components/
-│       ├── pages/
-│       └── App.jsx
-│
-├── server/                        → Node.js backend
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── config/
-│   └── server.js
-│
-├── .env                           → Environment config
-├── package.json                   → Project metadata and dependencies
-└── README.md                      → Project documentation
-
-
-├── app/            # Expo Router pages
-├── components/     # UI elements
-├── assets/         # Images & animations
-├── context/        # Chat + user data context
-├── utils/          # Axios instances & helpers
-└── app.config.js   # App metadata
 
 ## 🧑‍💻 Getting Started
 
